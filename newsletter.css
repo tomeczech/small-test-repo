@@ -1,0 +1,377 @@
+/* Left-Column Newsletter Style Sheet Document */
+
+/* -- -- -- -- -- -- -- -- -- -- BASIC PAGE ELEMENTS -- -- -- -- -- -- -- -- -- -- */
+
+/* "body" should be left BLANK */
+body
+{
+}
+/* ".container" controls the main page attributes such as page width, the background tile, and general font styles */
+.container
+{
+    border: 1px solid #ddd;
+    color: #333333;
+    font-family: "Trebuchet MS" , sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: normal;
+    width: 700px;
+}
+#LEFT
+{
+    background-color: #eee;
+    border-right: 1px solid #ddd;
+    width: 163px;
+}
+#CENTER
+{
+    width: 428px;
+}
+.centerspacer
+{
+    width: 10px;
+}
+/* ".masthead" is the first block inside "Container" that contains the logo, newsletter title & description, and edition & publication dates */
+.masthead
+{
+    background-color: white;
+    color:black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+/* ".mastheadTextLarge" is a box inside of "Masthead" controlling the Large Mast Head Text */
+.mastheadTextLarged
+{
+    font-size: 18px;
+}
+/* ".mastheadTextSmall" is a box inside of "Masthead" controlling the Small Mast Head Text */
+.mastheadTextSmall
+{
+    font-size: 14px;
+    margin-top: 5px;
+}
+/* ".logo" is a box inside "Masthead" containing the logo where you can control padding and other attributes */
+.logo
+{
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+.logoleft
+{
+    padding-right: 10px;
+    text-align: left;
+}
+.logoright
+{
+    padding-right: 25px;
+    text-align: right;
+}
+/* ".dateInfo" is a box inside of "Masthead" controlling the Edition and Publication date styles such as font size, line height, and background image */
+.dateInfo
+{
+    background-color: rgb(26, 51, 76);
+    color: white;
+    font-size: 12px;
+    height: 25px;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom:5px;
+    width: 100%;
+}
+.datelineLeft
+{
+    margin-top: 5px;
+    margin-right: 0px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    text-align: left;
+}
+.datelineRight
+{
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    text-align: right;
+}
+/* -- -- -- -- -- -- -- -- -- -- Title and Summary -- -- -- -- -- -- -- -- -- -- */
+
+/* ".titleSummaryWrapper" is a box inside of "Container" that houses the newsletter Title and Summary */
+.titleSummaryWrapper, .freetextWrapper
+{
+    margin-right: 10px;
+}
+/* ".title" controls the font styles of the newsletter Title */
+.title
+{
+    color: #323232;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+/* ".summary" controls the font styles of the newsletter Summary*/
+.summary, .freetext
+{
+    color: #666666;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.viewAllText
+{
+    color: blue;
+}
+.viewAllError
+{
+    color: #CC0000;
+    font-weight: bold;
+}
+/* -- -- -- -- -- -- -- -- -- -- Table of Contents -- -- -- -- -- -- -- -- -- -- */
+
+/* ".toc" is a box inside of "Container" that controls the size and defualt font styles of the Table of Contents */
+.toc
+{
+    color: #333333;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+/* ".tocTitle" controls the specifics of the Table of Contents Title */
+.tocTitle
+{
+    color: #666666;
+}
+/* ".tocBullet" controls the specifics of the Table of Contents items style */
+.tocBullet
+{
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    list-style-type: disc;
+}
+/* ".tocEntry" controls the specifics of the Table of Contents link entries */
+.tocEntry
+{
+    margin-top: 0px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+#RIGHT .toc
+{
+    display: none;
+}
+#CENTER .toc
+{
+    display: none;
+}
+
+.tocSubsectionEntry
+{
+    margin-top: 0px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 25px;
+}
+/* -- -- -- -- -- -- -- -- -- -- Line -- -- -- -- -- -- -- -- -- -- */
+
+/* ".line" */
+.line
+{
+    border-bottom: 1px dotted #E5E5E5;
+    font-size: 1px;
+    margin-top: 10px;
+}
+/* -- -- -- -- -- -- -- -- -- -- Subheadings -- -- -- -- -- -- -- -- -- -- */
+
+/* ".subhead" is a box or boxes inside of "Container" that control the size and font styles of the newsletter Subheadings */
+.subhead
+{
+    background-color: #eee;
+    border-top:3px #ddd solid;
+    
+    padding:6px 0px 6px 0px;
+    color: #404040;
+    font-size: 14px;
+}
+/* -- -- -- -- -- -- -- -- -- -- Subsections -- -- -- -- -- -- -- -- -- -- */
+
+/* ".subsection" is a box or boxes inside of "Container" that control the size and font styles of the newsletter Subsections */
+.subSection
+{
+    background-color: #eee;
+    padding:2px 0px 2px 0px;
+    color: #666666;
+    font-size: 13px;
+}
+/* -- -- -- -- -- -- -- -- -- -- Headlines -- -- -- -- -- -- -- -- -- -- */
+
+/* ".headline" controls the size and position of boxes within "Container" that contain a headline, a source, and a snippet from an article */
+.headline
+{
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+}
+/* ".headlineText" controls the font styles of the Headline within "Headline" */
+.headlineText
+{
+    color: #2492A5;
+    text-decoration: underline;
+}
+/* ".source" controls the font styles of the Source within "Headline" */
+.source
+{
+    color: #999999;    
+    font-size: 11px;
+    font-weight: normal;
+}
+/* ".snippet" controls the font styles of the article Snippet within "Headline" */
+.snippet
+{
+    color: #666666;
+    font-size: 12px;
+    font-weight: normal;
+}
+/* ".article" controls the size and position of boxes within "Container" that contain a article */
+.article
+{
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+}
+/* ".articleSnippet" controls the font styles of the article Snippet within "Article" */
+.articleSnippet
+{
+    color: #666666;
+}
+/* ".comment" controls the font styles of the Comment within "Headline" */
+.comment
+{
+    color: #660000;
+    font-size: 11px;
+    font-weight: normal;
+}
+/* ".flag" controls the font styles of the Flag within "Headline" */
+.flag
+{
+    color: white;
+    background-color: #FF6699;
+    width:80px;
+    text-align:center;
+    font-size: 12px;
+    font-weight: bold;
+}
+/* -- -- -- -- -- -- -- -- -- -- Client Information -- -- -- -- -- -- -- -- -- -- */
+
+/* ".clientContent" */
+.clientContent
+{
+    color: #666666;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+}
+/* ".clientTitle" */
+.clientTitle
+{
+    color: #2492A5;
+    text-decoration: none;
+}
+/* ".clientURL" */
+.clientURL
+{
+    color: #2492A5;
+    text-decoration: underline;
+}
+/* ".clientDescription" */
+.clientDescription
+{
+    color: #413522;
+}
+/* -- -- -- -- -- -- -- -- -- -- Footer and Links -- -- -- -- -- -- -- -- -- -- */
+
+/* ".footer" is a box within "Container" that controls the Footer's size, font styles, and background image */
+.footer
+{
+    background-color: #FFFFFF;
+    color: #333333;
+    font-size: 12px;
+    height: 25px;
+    margin-top: 5px;
+}
+.djfooter
+{
+    background-color: #FFFFFF;
+    color: #333333;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    height: 20px;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+/* "A:active, A:visited, A:link" controls the default font styles of links in the Newsletter */
+A:active, A:visited, A:link
+{
+    color: #333333;
+    text-decoration: none;
+}
+/* "A:hover" controls the default font style of links when Moused Over */
+A:hover
+{
+    text-decoration: underline;
+}
+/* "A.headlineText:active, A.headlineText:visited, A.headlineText:link" controls the default font styles of Headline links in the Newsletter */
+A.headlineText:active, A.headlineText:visited, A.headlineText:link
+{
+    color: #2492A5;
+    text-decoration: underline;
+}
+/* "A.headlineText:hover" controls the default font style of Headline links when Moused Over */
+A.headlineText:hover
+{
+    text-decoration: underline;
+}
+/* "A.clientTitle:active, A.clientTitle:visited, A.clientTitle:link" controls the default font styles of Client links in the Newsletter */
+A.clientTitle:active, A.clientTitle:visited, A.clientTitle:link
+{
+    color: #2492A5;
+    text-decoration: underline;
+}
+/* "A.clientTitle:hover" controls the default font style of Client links when Moused Over */
+A.clientTitle:hover
+{
+    text-decoration: underline;
+}
+A.hl
+{
+    text-decoration: underline;
+}
+.ImageNoBorder
+{
+}
+.articledividerbar
+{
+    background-color: #EEEEEE;
+    height: 4px;
+    margin-bottom: 10px;
+    width: 600px;
+}
